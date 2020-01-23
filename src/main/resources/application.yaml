@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: maven-plugin-tester
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #<2>
+  endpoint:
+    health:
+      show-details: ALWAYS
