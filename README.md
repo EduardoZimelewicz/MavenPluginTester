@@ -17,7 +17,19 @@ Check sort
 ```bash
 mvn sortpom:verify
 ```
-Run pmd code analysis
+Pmd code analysis
 ```bash
 mvn pmd:pmd
+```
+Code lint
+```bash
+mvn checkstyle:checkstyle
+```
+SpotBugs
+```bash
+mvn spotbugs:check
+```
+SonarCloud
+```bash
+mvn verify sonar:sonar
 ```
